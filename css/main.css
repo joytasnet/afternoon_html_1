@@ -1,0 +1,21 @@
+#container{
+  width:960px;
+  margin:0 auto;
+  background: #eee;
+}
+#container ul{
+  display: flex;
+  height:500px;
+  justify-content: space-around;
+  align-items: center;
+}
+#container ul li{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-radius: 5px solid blue;
+}
+#container ul li img{
+  width:100%;
+}
